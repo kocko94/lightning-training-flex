@@ -61,19 +61,23 @@ export default class App extends Lightning.Component {
     }
   }
 
+  _construct() {
+    console.log('app construct')
+  }
+
+  _build() {
+    console.log('app build')
+  }
+
+  _setup() {
+    console.log('app setup')
+  }
+
   _init() {
-    this.tag('Background')
-      .animation({
-        duration: 15,
-        repeat: -1,
-        actions: [
-          {
-            t: '',
-            p: 'color',
-            v: { 0: { v: 0xfffbb03b }, 0.5: { v: 0xfff46730 }, 0.8: { v: 0xfffbb03b } },
-          },
-        ],
-      })
-      .start()
+    console.log('app init')
+  }
+
+  _enable() {
+    console.log('app enable')
   }
 }

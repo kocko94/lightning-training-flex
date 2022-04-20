@@ -21,4 +21,24 @@ export default class Box extends Lightning.Component {
       },
     }
   }
+
+  _construct() {
+    console.log('Box construct')
+  }
+
+  _build() {
+    console.log('Box build')
+  }
+
+  _setup() {
+    console.log('Box setup')
+  }
+
+  _init() {
+    console.log('Box init')
+  }
+
+  _enable() {
+    console.log('Box enable')
+  }
 }
