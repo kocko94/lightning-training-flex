@@ -10,6 +10,15 @@ export default class Box extends Lightning.Component {
       flexItem: {
         margin: 10,
       },
+      Label: {
+        mountY: 0.5,
+        mountX: 0.5,
+        x: 50,
+        y: 50,
+        text: {
+          text: this.bindProp('boxText'),
+        },
+      },
     }
   }
 }

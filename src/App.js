@@ -47,12 +47,15 @@ export default class App extends Lightning.Component {
         },
         Box1: {
           type: Box,
+          boxText: 'a',
         },
         Box2: {
           type: Box,
+          boxText: 'b',
         },
         Box3: {
           type: Box,
+          boxText: 'c',
         },
       },
     }
